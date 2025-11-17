@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: crud-application-spring-boot
+  description: A Spring Boot application providing CRUD operations for managing data efficiently.
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/CRUD-Application-Spring-Boot
+    jira/project-key: SCRUM
+    jira/label: backstage-component:crud-application-spring-boot
+spec:
+  type: application
+  owner: ICS
+  lifecycle: production
